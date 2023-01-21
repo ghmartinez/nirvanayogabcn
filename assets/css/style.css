@@ -1154,7 +1154,9 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background-image: url("bbblurry.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 60px 0;
 }
 
