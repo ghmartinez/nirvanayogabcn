@@ -165,6 +165,22 @@ h6 {
 /*--------------------------------------------------------------
 #  Get Startet Button
 --------------------------------------------------------------*/
+.btn {
+  color: black;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #ffc451;
+}
+
+.btn:hover {
+  background: #ffbb38;
+  color: #343a40;
+}
+
 .get-started-btn {
   color: #fff;
   border-radius: 4px;
@@ -1570,4 +1586,11 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+/* Momoyoga */
+
+.momoyoga-schedule {
+  max-height: 500px;
+  overflow: auto;
 }
