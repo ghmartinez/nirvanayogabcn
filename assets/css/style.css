@@ -1165,7 +1165,7 @@ section {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #fff;
+  background: none;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1277,7 +1277,8 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,
+.contact .info .instagram {
   margin-top: 40px;
 }
 
