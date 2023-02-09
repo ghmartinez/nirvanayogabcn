@@ -1172,6 +1172,8 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: space-around;
 }
 
 .team .member .social {
@@ -1211,6 +1213,7 @@ section {
 
 .team .member .member-info {
   padding: 25px 15px;
+  background-color: white;
 }
 
 .team .member .member-info h4 {
